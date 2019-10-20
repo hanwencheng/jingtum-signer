@@ -34,9 +34,6 @@ import java.security.GeneralSecurityException;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by Jacob Gins on 6/2/2016.
- */
 public class ECCryptoModule extends ReactContextBaseJavaModule {
     private static final String KEYSTORE_PROVIDER_NAME = "parity.singer.keystore";
     private static final String SHARED_PREF_FILE_NAME = "parity.signer.shared.pref";
